@@ -1,7 +1,7 @@
 {
   "title": "Formas de pagamento",
-  "meta_title": "Formas de pagamento - My Shop",
+  "meta_title": "Formas de pagamento - Empório Tia Sônia",
   "meta_description": "Formas de pagamento",
   "pitbar": false,
-  "body": "### Lorem ipsum dolor sit amet"
+  "body": "<div class=\"row\">\n<div class=\"col-md-12 container\" style=\"font-family: 'Kite One', sans-serif;\">\r\n            <p>Aqui você pode efetuar o pagamento através do cartão de crédito e também via Boleto bancário:</p><blockquote style=\"font-size: 16px; font-weight: bold\">Cartão de Crédito</blockquote><p>O pagamento é processado pelo Pagseguro. Pagamentos realizados em 1 parcela não contem juros. <br>A partir da segunda parcela será cobrado juros no parcelamento;</p><blockquote style=\"font-size: 16px; font-weight: bold\">Boleto Bancário</blockquote><p>O boleto deve ser pago até a data de vencimento. O envio do pedido é liberado depois da aprovação do pagamento. Não enviamos boleto via Correios;</p>\r\n</div>\n</div>"
 }
