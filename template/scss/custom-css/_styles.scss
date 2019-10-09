@@ -1,1 +1,156 @@
 // Add your custom CSS here.
+// heading tags
+h1, h3, h4, h5, h6 {
+  font-family: 'Kite One', sans-serif;
+  font-size: 26px;
+}
+
+// header
+#header .menu__list span, .header__toggler span, .menu__item span, .header__search.form-control {
+  font-size: 19px;
+  text-transform: uppercase !important;
+  font-weight: 400 !important
+}
+.b-popover h3 {
+  font-size: 23px !important;
+  font-family: 'Kite One', sans-serif;
+  letter-spacing: 0.13em;
+  text-align: center !important;
+}
+.ec-search__popover strong, .ec-search__popover span, .ec-search__popover  {
+  font-size: 20px !important;
+  text-align: center;
+}
+.ec-search__popover .ec-product-card__offer-stamp {
+  font-size: .78rem !important
+}
+.menu__item__icon > img {
+  max-width: 240% !important;
+  max-height: 200% !important;
+}
+.menu__item__icon {
+  margin-right: 3.1rem !important;
+  height: 3.45rem !important;
+}
+.menu__list span:last-child {
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+  margin-top: -9px !important;
+}
+.menu__list span:last-child:hover {
+  color: #719FCC;
+}
+.menu__list a:hover span:last-child:after {
+  content: '';
+  display: block;
+  position: relative;
+  width: 135px;
+  height: 14px;
+  background: url(https://ecom-ylgltfmo.sfo2.digitaloceanspaces.com/imgs/400px/@1567483971874-produtos-categoria-hover.png);
+  left: 30%;
+  top: 7px;
+  transform: translateX(-50%);
+  width: -moz-max-content;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.header__bar {
+  border-bottom: 1px dashed #D9D9D9
+}
+#header {
+  background-color: #fff !important;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important
+}
+.header__search.form-control {
+  border: 1px dashed #D9D9D9 !important
+}
+button.btn-light, button.btn-light  {
+  background-color: #fff !important;
+  border-color: #fff !important
+}
+#accordion-menu .btn {
+  color: #212529 !important
+}
+.menu__item:hover {
+  background-color: #f8f9fA !important;
+  color: #343a40 !important;
+}
+// content
+.banner-slider {
+  max-width: 100% !important;
+}
+#home .container {
+  padding-bottom: 0px !important
+}
+#content {
+  padding-top: 9px
+}
+.products-carousel:first-child > .products-carousel__title, .products-carousel:nth-child(2) > .products-carousel__title, .products-carousel:nth-child(3) > .products-carousel__title {
+  display: none !important
+}
+.products-carousel h3, .products-carousel strong, .products-carousel .ec-product-card__prices, .product-card h3, .product-card .ec-product-card__prices{
+  text-align: center;
+  font-size: 23px !important;
+}
+#home .md-content {
+  padding-bottom: 0px !important;
+  margin-bottom: -1em;
+}
+// Footer
+.footer__title, .footer__links, .footer__credits, .footer__title +p, .footer__title +ul, .footer__title +ul li address  {
+  font-style: italic !important;
+  font-family: 'Kite One', sans-serif;
+}
+.footer__title +ul.list-unstyled > li:first-child span,.footer__title +ul.list-unstyled > li:first-child a {
+  font-size: 20px !important;
+  color: #2C0E7A !important;
+}
+.footer .col-lg-auto {
+  width: 20%;
+}
+.footer__title +ul.list-unstyled > li:nth-child(2) > a {
+  color: #2C0E7A !important;
+}
+.footer__stamps > .col-auto:nth-child(3) > img {
+  width: 70%;
+}
+.footer__stamps > .col-auto > img {
+  max-width: 120px;
+}
+.footer__title {
+  color: #2C0E7A !important;
+}
+.footer__credits {
+  text-align: center;
+}
+.footer__links svg {
+  display: none !important;
+}
+.footer__links, .footer__credits, div.footer__title +p, div.footer__title +ul {
+  color: #666 !important;
+}
+// Responsivo
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+  #product-block .ec-product__buy > button.btn-lg {
+    width: 100%
+  }
+}
+@media (min-width: 768px) {
+  .visible-xs {
+    display: none !important;
+  }
+  .footer {
+      background-image: url(/img/uploads/rodape-image.jpg) !important;
+  }
+}
+// contact
+#contact {
+    background-image: url(/img/uploads/backgroundc.png) !important;
+    background-repeat: no-repeat;
+}
