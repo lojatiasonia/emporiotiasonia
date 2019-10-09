@@ -5,25 +5,43 @@
   },
   "links_1": {
     "list_pages": true,
-    "title": "Pages",
+    "title": "Informações",
     "list": []
   },
   "links_2": {
     "list_categories": true,
-    "title": "Categories",
+    "title": "Categorias",
     "list": []
   },
   "contacts": {
-    "title": "Contacts",
+    "title": "Contatos",
     "phone_wpp": true,
-    "socials": true,
     "email": true,
+    "socials": true,
     "address": true
   },
   "stamps": [
     {
       "src": "/img/uploads/ssl-safe.png",
       "alt": "Secure connection"
+    },
+    {
+      "src": "/img/uploads/tiasonia-produto-organico.png",
+      "alt": "Produto Orgânico"
+    },
+    {
+      "src": "/img/uploads/selo-vegano.png",
+      "alt": "Produto Vegano"
+    },
+    {
+      "src": "/img/uploads/GoogleSafeBrowsing.png",
+      "alt": "Google Safe Browsing",
+      "link": "http://www.google.com/safebrowsing/diagnostic?site=www.emporiotiasonia.com.br"
+    },
+    {
+      "src": "/img/uploads/NortonSafeWeb.png",
+      "alt": "Norton Secure",
+      "link": "https://safeweb.norton.com/report/show?url=www.emporiotiasonia.com.br"
     }
   ],
   "payment_methods": {
@@ -32,7 +50,7 @@
     "boleto": true,
     "aura": false,
     "banrisul": false,
-    "elo": true,
+    "elo": false,
     "hipercard": false,
     "hsbc": false,
     "bradesco": true,
@@ -42,5 +60,5 @@
     "mais": false,
     "itau": true
   },
-  "credits": ""
+  "credits": "ALIMENTOS TIA SONIA LTDA - CNPJ: 08.385.685/0002-24 © 2019 Todos os direitos reservados"
 }

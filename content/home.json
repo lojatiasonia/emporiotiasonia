@@ -1,18 +1,26 @@
 {
-  "meta_title": "",
-  "meta_description": "",
+  "meta_title": "Empório Tia Sônia | O Melhor Lugar para Você Comprar Granolas",
+  "meta_description": "No Empório Tia Sônia você encontra os produtos da marca número 1 em granolas no Nordeste. Enviamos para todo Brasil. Aqui é o Melhor Lugar para Você Comprar Granolas. Faz bem mais feliz! ",
   "slider": {
     "autoplay": 9000,
     "slides": [
       {
-        "img": "/img/uploads/rect89.png"
-      },
-      {
-        "img": "/img/uploads/banner2.png"
+        "img": "/img/uploads/slider.jpg",
+        "alt": "Frete Grátis Tia Sonia"
       }
     ]
   },
-  "pitbar": true,
-  "showcase": [],
+  "pitbar": false,
+  "showcase": [
+    {
+      "collection": "5d713f07f11b5b64ea01cd02"
+    },
+    {
+      "collection": "5d781d5af11b5b64ea01cd7f"
+    },
+    {
+      "collection": "5d7142a4f11b5b64ea01cd05"
+    }
+  ],
   "additional_content": ""
 }

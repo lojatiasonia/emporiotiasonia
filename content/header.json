@@ -1,19 +1,9 @@
 {
   "marketing_stripe": {
-    "text": "Enjoy our discounts of up to 40%!",
-    "link": "promotion"
+    "text": "FRETE GRÁTIS* + OFERTAS EXCLUSIVAS "
   },
   "contacts_stripe": {
-    "pages": [
-      {
-        "title": "Sobre nós",
-        "link": "/pages/sobre-nos"
-      },
-      {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
-      }
-    ],
+    "pages": [],
     "phone_wpp": true,
     "socials": true
   }
