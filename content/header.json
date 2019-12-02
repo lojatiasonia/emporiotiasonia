@@ -1,6 +1,7 @@
 {
   "marketing_stripe": {
-    "text": "FRETE GRÁTIS* + OFERTAS EXCLUSIVAS "
+    "text": "FRETE GRÁTIS* + OFERTAS EXCLUSIVAS (ver regras)",
+    "link": "https://tiasonia.netlify.com/pages/entrega"
   },
   "contacts_stripe": {
     "pages": [],
