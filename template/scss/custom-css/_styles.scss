@@ -1,6 +1,8 @@
 // Add your custom CSS here.
 // heading tags
-
+body {
+font-family: 'Open Sans', sans-serif;
+}
 // header
 #header .menu__list span, .header__toggler span, .menu__item span, .header__search.form-control {
   font-size: 19px;
@@ -9,7 +11,6 @@
 }
 .b-popover h3 {
   font-size: 23px !important;
-  font-family: 'Kite One', sans-serif;
   letter-spacing: 0.13em;
   text-align: center !important;
 }
@@ -89,17 +90,12 @@
 }
 .products-carousel h3, .products-carousel strong, .products-carousel .ec-product-card__prices, .product-card h3, .product-card .ec-product-card__prices{
   text-align: center;
-  font-size: 23px !important;
 }
 #home .md-content {
   padding-bottom: 0px !important;
   margin-bottom: -1em !important;
 }
 // Footer
-.footer__title, .footer__links, .footer__credits, .footer__title +p, .footer__title +ul, .footer__title +ul li address  {
-  font-style: italic !important;
-  font-family: 'Kite One', sans-serif;
-}
 .footer__title +ul.list-unstyled > li:first-child span,.footer__title +ul.list-unstyled > li:first-child a {
   font-size: 20px !important;
   color: #2C0E7A !important;
