@@ -1,1 +1,6 @@
-{}
+{
+  "active": true,
+  "options": {
+    "gtmContainerId": "GTM-WBGQN6F"
+  }
+}
