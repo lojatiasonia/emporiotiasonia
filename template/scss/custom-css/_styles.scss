@@ -14,7 +14,6 @@ font-family: 'Open Sans', sans-serif;
   color: #fff;
 }
 .b-popover h3 {
-  font-size: 23px !important;
   letter-spacing: 0.13em;
   text-align: center !important;
 }
@@ -77,9 +76,6 @@ font-family: 'Open Sans', sans-serif;
 }
 #content {
   padding-top: 9px
-}
-.products-carousel:first-child > .products-carousel__title, .products-carousel:nth-child(2) > .products-carousel__title, .products-carousel:nth-child(3) > .products-carousel__title {
-  display: none !important
 }
 .products-carousel h3, .products-carousel strong, .products-carousel .ec-product-card__prices, .product-card h3, .product-card .ec-product-card__prices{
   text-align: center;
