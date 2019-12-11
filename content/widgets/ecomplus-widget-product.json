@@ -4,7 +4,7 @@
   "desktopOnly": false,
   "options": {
     "props": {
-      "buyText": ""
+      "buyText": "ADICIONAR AO CARRINHO"
     },
     "slots": {
       "buy": ""
