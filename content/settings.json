@@ -1,22 +1,21 @@
 {
-  "store_id": 1024,
-  "name": "Empório Tia Sônia",
-  "domain": "tiasonia.netlify.com",
-  "short_name": "emporiotiasonia",
-  "description": "A marca número 1 em granolas no Nordeste e a 3ª mais vendida no Brasil. Faz bem mais feliz!",
+  "currency_symbol": "R$",
   "primary_color": "#2e3038",
-  "secondary_color": "#2e3038",
-  "bg_color": "#ffffff",
   "theme": {
     "bootswatch": "_"
   },
+  "bg_color": "#ffffff",
   "logo": "/img/uploads/logo.png",
-  "mini_logo": "/img/uploads/minilogo.png",
-  "icon": "/img/uploads/logo.png",
-  "large_icon": "/img/uploads/logo.png",
-  "favicon": "/img/uploads/favicon.png",
+  "name": "Empório Tia Sônia",
+  "short_name": "emporiotiasonia",
   "lang": "pt_br",
   "currency": "BRL",
-  "currency_symbol": "R$",
-  "country_code": "BR"
+  "mini_logo": "/img/uploads/minilogo.png",
+  "favicon": "/img/uploads/favicon.png",
+  "country_code": "BR",
+  "secondary_color": "#2e3038",
+  "icon": "/img/uploads/logo.png",
+  "store_id": 1024,
+  "description": "A marca número 1 em granolas no Nordeste. Faz bem mais feliz!",
+  "large_icon": "/img/uploads/logo.png"
 }
