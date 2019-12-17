@@ -149,5 +149,9 @@ font-family: 'Open Sans', sans-serif;
   content: 'Frete Grátis em pedidos a partir de R$ 150,00';
   font-weight: bold;
   font-size: 13px;
-  color: #008000;
+  color: #333;
+}
+//tag desconto lista produtos
+.ec-product-card__offer-stamp {
+    background-color: #fab20b;
 }
