@@ -1,12 +1,12 @@
 {
   "pitbar": false,
-  "related": {
-    "showcase": true,
-    "title": "Produtos relacionados"
-  },
   "recommended": {
     "showcase": true,
     "title": "Quem comprou este produto, também comprou:"
+  },
+  "related": {
+    "showcase": true,
+    "title": "Você também pode gostar"
   },
   "additional_content": ""
 }
