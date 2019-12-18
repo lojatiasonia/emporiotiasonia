@@ -1,15 +1,12 @@
 {
   "pitbar": false,
-  "recommended": {
-    "recommended_on": true,
-    "title": "Quem comprou este produto, também comprou:"
-  },
   "related": {
-    "related_on": true,
+    "showcase": true,
     "title": "Produtos relacionados"
   },
-  "add_collection": {
-    "collection_on": false
+  "recommended": {
+    "showcase": true,
+    "title": "Quem comprou este produto, também comprou:"
   },
   "additional_content": ""
 }
