@@ -178,11 +178,24 @@ font-family: 'Open Sans', sans-serif;
 }
 
 //botao add carrinho
-.ec-product-card__buy .btn-primary {
+@media (min-width: 998px) {
+  .ec-product-card__buy .btn-primary{
     width: 150px;
     height: 30px;
+    margin-left: 17.5%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 997px) {
+  .ec-product-card__buy .btn-primary{
+    width: 150px;
+    height: 30px;
+    margin-left: 25.5%;
+  }
+}
+
+.ec-product-card__buy .btn-primary {
     line-height: 0px;
     font-size: 0.8rem;
-  background-color: #003996;
+    background-color: #003996;
     border-color: #003996;
 }
