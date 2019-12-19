@@ -1,5 +1,5 @@
 {
-  "main_price": "total",
+  "main_price": "discount",
   "shipping": {
     "text": "Entregamos para todo o Brasil",
     "show": true
