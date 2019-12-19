@@ -17,8 +17,7 @@
     "title": "Contatos",
     "phone_wpp": true,
     "email": true,
-    "socials": true,
-    "address": true
+    "socials": true
   },
   "stamps": [
     {
@@ -45,20 +44,24 @@
     }
   ],
   "payment_methods": {
-    "bb": true,
+    "bb": false,
     "visa": true,
     "boleto": true,
     "aura": false,
     "banrisul": false,
-    "elo": false,
-    "hipercard": false,
+    "elo": true,
+    "hipercard": true,
     "hsbc": false,
-    "bradesco": true,
+    "bradesco": false,
     "santander": false,
     "mastercard": true,
+    "paypal": true,
     "citibank": false,
+    "hiper": true,
+    "diners": false,
     "mais": false,
-    "itau": true
+    "amex": true,
+    "itau": false
   },
   "credits": "ALIMENTOS TIA SONIA LTDA - CNPJ: 08.385.685/0002-24 © 2019 Todos os direitos reservados"
 }
