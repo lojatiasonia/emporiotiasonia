@@ -1,7 +1,7 @@
 {
   "main_price": "discount",
   "shipping": {
-    "text": "Entregamos para todo o Brasil",
+    "text": "Frete Grátis - Acima de R$ 150",
     "show": true
   },
   "installments": {
