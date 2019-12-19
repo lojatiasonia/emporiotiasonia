@@ -4,7 +4,12 @@
     "link": "https://www.emporiotiasonia.com.br/pages/entrega"
   },
   "contacts_stripe": {
-    "pages": [],
+    "pages": [
+      {
+        "title": "Fale Conosco",
+        "link": "https://www.emporiotiasonia.com.br/pages/contato"
+      }
+    ],
     "phone_wpp": true,
     "socials": true
   }
