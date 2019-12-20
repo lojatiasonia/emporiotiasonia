@@ -203,3 +203,11 @@ font-family: 'Open Sans', sans-serif;
 .ec-product-card__prices {
     height: 2.95rem !important;
  }
+
+//estregas trustvox
+@media (min-width: 998px) {
+  .ec-product-card__name +div {margin-left: 17.5%;} 
+}
+@media screen and (min-width: 481px) and (max-width: 997px) {
+  .ec-product-card__name +div {margin-left: 25.5%;}
+}
