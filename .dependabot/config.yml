@@ -3,16 +3,11 @@ version: 1
 update_configs:
   - package_manager: "javascript"
     directory: "/"
-    update_schedule: "weekly"
+    update_schedule: "live"
 
     allowed_updates:
       - match:
           dependency_name: "@ecomplus/storefront-*"
-
-    automerged_updates:
-      - match:
-          dependency_name: "@ecomplus/storefront-*"
-          update_type: "semver:minor"
 
     commit_message:
       prefix: "chore"
