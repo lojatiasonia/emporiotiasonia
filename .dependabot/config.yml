@@ -9,6 +9,11 @@ update_configs:
       - match:
           dependency_name: "@ecomplus/storefront-*"
 
+    automerged_updates:
+      - match:
+          dependency_name: "@ecomplus/storefront-*"
+          update_type: "semver:minor"
+
     commit_message:
       prefix: "chore"
       include_scope: true
