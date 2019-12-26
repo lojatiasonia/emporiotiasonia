@@ -3,6 +3,9 @@
 body {
 font-family: 'Open Sans', sans-serif;
 }
+#header .d-none.d-sm-block {
+display: block !important;
+}
 // header
 #header .menu__list span, .header__toggler span, .menu__item span, .header__search.form-control {
   text-transform: uppercase !important;
