@@ -1,6 +1,6 @@
 {
   "currency_symbol": "R$",
-  "primary_color": "#2e3038",
+  "primary_color": "#333333",
   "theme": {
     "bootswatch": "_"
   },
@@ -13,7 +13,7 @@
   "mini_logo": "/img/uploads/minilogo.png",
   "favicon": "/img/uploads/favicon.png",
   "country_code": "BR",
-  "secondary_color": "#2e3038",
+  "secondary_color": "#001052",
   "icon": "/img/uploads/logo.png",
   "store_id": 1024,
   "description": "A marca número 1 em granolas no Nordeste. Faz bem mais feliz!",
