@@ -14,10 +14,12 @@ display: block !important;
 .header__search.form-control {
   font-size: 15px !important
 }
-.header a.header__countdown {
-  font-size: 0.8rem;
-  background: #003996;
-  font-weight:700;
+
+@media (min-width: 998px) {
+.header a.header__countdown { font-size: 0.8rem;  background: #003996;  font-weight:700;}
+}
+@media screen and (min-width: 481px) and (max-width: 997px) {
+.header a.header__countdown { font-size: 0.6rem;  background: #003996;  font-weight:500;}
 }
 
 #home .col-md-8.col-sm-7 > .banner_prs > a > img {
