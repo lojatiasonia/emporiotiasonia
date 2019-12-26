@@ -15,10 +15,10 @@ display: block !important;
   font-size: 15px !important
 }
 
-@media (min-width: 998px) {
+@media screen (min-width: 998px) {
 .header a.header__countdown { font-size: 0.8rem;  background: #003996;  font-weight:700;}
 }
-@media screen and (min-width: 481px) and (max-width: 997px) {
+@media screen (max-width: 980px) {
 .header a.header__countdown { font-size: 0.6rem;  background: #003996;  font-weight:500;}
 }
 
