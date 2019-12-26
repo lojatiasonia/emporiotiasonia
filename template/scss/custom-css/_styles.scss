@@ -204,6 +204,10 @@ display: block !important;
     border-color: #162567;
 }
 
+@media screen and (max-width: 480px) {
+.ec-product-card__buy .btn-primary {font-size: 0.7rem;}
+}
+
 //margem preco botao
 .ec-product-card__prices {
     height: 2.95rem !important; 
