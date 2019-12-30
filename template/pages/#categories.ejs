@@ -23,7 +23,7 @@ const sfTemplatePath = '../../node_modules/@ecomplus/storefront-template/templat
       <%- await include('@custom-html/append-top', { _ }) %>
       <%- await include('@custom-html/categories/append-top', { _ }) %>
 
-      <%- await include(`${sfTemplatePath}@/views/categories`, { _ }) %>
+      <%- await include(`@/views/categories`, { _ }) %>
 
       <%- await include('@custom-html/append-bottom', { _ }) %>
       <%- await include('@custom-html/categories/append-bottom', { _ }) %>

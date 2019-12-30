@@ -1,0 +1,91 @@
+<%
+// load categories page content
+const pageCategories = _.cms('categories')
+const sfTemplatePath1 = '../../../../node_modules/@ecomplus/storefront-template/template/pages/'
+
+// current category body
+const { body } = await _.resolveRoute()
+const breadcrumbs = [{
+  name: _.ecomUtils.name(body),
+  link: `/${body.slug}`
+}]
+const { parent } = body
+if (parent) {
+  breadcrumbs.unshift({
+    name: _.ecomUtils.name(parent),
+    link: `/${parent.slug}`
+  })
+}
+
+// setup search engine instance with category filter
+const search = new _.EcomSearch()
+search.setCategoryIds([body._id])
+%>
+
+<% if (pageCategories.pitbar) { %>
+  <%- await include(`${sfTemplatePath1}@/views/components/pitbar`, { _ }) %>
+<% } %>
+
+<div class="container py-1 py-sm-2 py-lg-4">
+  <%- await include(`${sfTemplatePath1}@/views/components/breadcrumbs`, { _, opt: { breadcrumbs } }) %>
+
+  <div id="category" class="category">
+    <h1 class="page-title category__name">
+      <%= _.ecomUtils.name(body) %>
+    </h1>
+    <% if (body.short_description) { %>
+      <p class="lead category__info">
+        <%= body.short_description %>
+      </p>
+    <% } %>
+    <% if (Array.isArray(body.pictures) && body.pictures.length) { %>
+      <div class="hero-banner category__banner">
+        <img
+          class="img-fluid lozad fade"
+          data-src="<%= body.pictures[0].url %>"
+          alt="<%= body.pictures[0].alt %>"
+        >
+      </div>
+    <% } %>
+
+    <%- await include(`${sfTemplatePath1}@/views/components/retail-grid`, { _, opt: { search } }) %>
+
+    <% if (body.body_html) { %>
+      <section class="category__description">
+        <div class="html-clearfix">
+          <%- body.body_html %>
+        </div>
+      </section>
+    <% } %>
+    <div class="cat container py-1 py-sm-2 py-lg-4">
+      <% if (Array.isArray(pageCategories.showcase) && pageCategories.showcase.length) { %>
+        <%
+        for (let i = 0; i < pageCategories.showcase.length; i++) {
+          const shelf = pageCategories.showcase[i]
+          // get collection body
+          const res = await _.ecomClient.store({ url: `/collections/${shelf.collection}.json` })
+          const collection = res.data
+          let items = []
+          if (Array.isArray(collection.products) && collection.products.length) {
+            // search collection items by IDs
+            const search = new _.EcomSearch()
+            await search.setProductIds(collection.products).fetch()
+            items = search.getItems()
+          }
+          const { title, link } = shelf
+          %>
+          <%- await include(`${sfTemplatePath1}@/views/components/products-carousel`, { _, opt: { items, collection, title, link } }) %>
+          <%
+        }
+        %>
+        <% } else { %>
+          <%- await include(`${sfTemplatePath1}@/views/components/products-carousel`, { _, opt: { items: _.items } }) %>
+        <% } %>
+
+    <% if (pageCategories.additional_content) { %>
+      <section class="md-content">
+        <%- _.md.render(pageCategories.additional_content) %>
+      </section>
+    <% } %>
+  </div>
+</div>

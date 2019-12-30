@@ -1,4 +1,12 @@
 {
   "pitbar": false,
-  "additional_content": ""
+  "additional_content": "",
+  "showcase": [
+    {
+      "collection": "5d09311d24607a6a42d714ca"
+    },
+    {
+      "collection": "5deaa397cea1b26d087dc20a"
+    }
+  ]
 }
