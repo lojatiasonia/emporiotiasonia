@@ -150,14 +150,13 @@ display: block !important;
     background-image: url(/img/uploads/backgroundc.png) !important;
     background-repeat: no-repeat;
 }
-// produto
-/*
+// FRETE CALCULO
 .ec-shipping__services::after {
-  content: 'Frete Grátis em pedidos a partir de R$ 150,00';
+  content: 'Frete Grátis a partir de R$ 100,00';
   font-weight: bold;
   font-size: 13px;
   color: #333;
-}*/
+}
 
 //tag desconto lista produtos
 .ec-product-card__offer-stamp {
