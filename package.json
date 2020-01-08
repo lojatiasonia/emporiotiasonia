@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@ecomplus/storefront",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "description": "PWA and JAMstack based e-commerce template for E-Com Plus stores",
   "main": "template/js/index.js",
   "jsdelivr": "dist/storefront.js",
@@ -34,10 +34,8 @@
   },
   "homepage": "https://github.com/ecomclub/storefront#readme",
   "dependencies": {
-    "@ecomplus/storefront-app": "^1.4.7",
-    "@ecomplus/storefront-framework": "^5.3.0",
-    "@ecomplus/storefront-template": "^1.26.7",
-    "@ecomplus/utils": "^1.2.8"
+    "@ecomplus/storefront-framework": "^5.3.2",
+    "@ecomplus/storefront-template": "^1.26.7"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.4",
@@ -54,7 +52,8 @@
   "browserslist": [
     "> 0.5%",
     "not dead",
-    "not ie 11"
+    "not ie 11",
+    "not ie_mob 11"
   ],
   "standard": {
     "parser": "babel-eslint"
