@@ -15,10 +15,10 @@ display: block !important;
   font-size: 15px !important
 }
 
-.header a.header__countdown { font-size: 0.8rem;  background: #daa520;  font-weight:700;}
+.header a.header__countdown { font-size: 0.8rem;  color: #ffbf02; background: #333333; font-weight:700;}
 
 @media screen and (max-width: 480px) {
-.header a.header__countdown { font-size: 0.6rem; font-weight:500;}
+.header a.header__countdown { font-size: 0.7rem; font-weight:500;}
 }
 
 #home .col-md-8.col-sm-7 > .banner_prs > a > img {
