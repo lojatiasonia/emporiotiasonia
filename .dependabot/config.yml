@@ -7,11 +7,13 @@ update_configs:
 
     allowed_updates:
       - match:
+          dependency_name: "@ecomplus/storefront-framework"
+      - match:
           dependency_name: "@ecomplus/storefront-template"
 
     automerged_updates:
       - match:
-          dependency_name: "@ecomplus/storefront-template"
+          dependency_name: "@ecomplus/*"
           update_type: "semver:minor"
 
     commit_message:
