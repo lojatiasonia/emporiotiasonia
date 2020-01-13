@@ -235,12 +235,3 @@ display: block !important;
 
 //hover TOPO
 .header__countdown:hover:after{content: url(https://gen.sendtric.com/countdown/r8wjmef9co); display: block;}
-
-//botao continuar
-.ec-account-form button {
-  font-size: 0px
-}
-.ec-account-form button::after {
-  font-size: 1rem !important;
-  content: 'CONTINUAR'
-}
