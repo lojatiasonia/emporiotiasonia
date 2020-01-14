@@ -3,11 +3,7 @@
   "meta_description": "No Empório Tia Sônia você encontra os produtos da marca número 1 em granolas no Nordeste. Enviamos para todo Brasil. Aqui é o Melhor Lugar para Você Comprar Granolas. Faz bem mais feliz! ",
   "slider": {
     "autoplay": 9000,
-    "slides": [
-      {
-        "img": "/img/uploads/d-sonia-ola-eu-sou-a-tia-sonia-1500px-1-.png"
-      }
-    ]
+    "slides": []
   },
   "pitbar": false,
   "showcase": [
