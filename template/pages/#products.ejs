@@ -45,16 +45,16 @@ const sfTemplatePath = '../../node_modules/@ecomplus/storefront-template/templat
   <script>
   window.omnisend = window.omnisend || [];
   omnisend.push(["track", "$productViewed", {
-    $productID: storefront.context.body.sku,
+    $productID: window.storefront.context.body.sku,
     $variantID: "",
-    $currency: storefront.context.body.currency_id,
+    $currency: window.storefront.context.body.currency_id,
     $tags: [],
-    $price: storefront.context.body.price,
-    $oldPrice: storefront.context.body.base_price,
-    $title: storefront.context.body.name,
-    $description: storefront.context.body.meta_description,
-    $imageUrl: storefront.context.body.pictures[0].big.url,
-    $productUrl: 'https://www.emporiotiasonia.com.br/' + storefront.context.body.slug,
+    $price: window.storefront.context.body.price,
+    $oldPrice: window.storefront.context.body.base_price,
+    $title: window.storefront.context.body.name,
+    $description: window.storefront.context.body.meta_description,
+    $imageUrl: window.storefront.context.body.pictures[0].big.url,
+    $productUrl: 'https://www.emporiotiasonia.com.br/' + window.storefront.context.body.slug,
     $vendor: "tiasonia"
   }]);
 </script>
