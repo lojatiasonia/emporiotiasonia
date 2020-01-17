@@ -41,6 +41,8 @@ const sfTemplatePath = '../../node_modules/@ecomplus/storefront-template/templat
   <%- await include(`${sfTemplatePath}@/scripts`, { _ }) %>
 
   <%- await include('@custom-html/scripts', { _ }) %>
+
+  <script src="/storefront.js"></script>
   
   <script>
   window.omnisend = window.omnisend || [];
@@ -58,8 +60,6 @@ const sfTemplatePath = '../../node_modules/@ecomplus/storefront-template/templat
     $vendor: "tiasonia"
   }]);
 </script>
-
-  <script src="/storefront.js"></script>
 </body>
 
 </html>
