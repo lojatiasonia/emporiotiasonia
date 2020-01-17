@@ -41,6 +41,23 @@ const sfTemplatePath = '../../node_modules/@ecomplus/storefront-template/templat
   <%- await include(`${sfTemplatePath}@/scripts`, { _ }) %>
 
   <%- await include('@custom-html/scripts', { _ }) %>
+  
+  <script>
+  window.omnisend = window.omnisend || [];
+  omnisend.push(["track", "$productViewed", {
+    $productID: "storefront.context.body.sku",
+    $variantID: "",
+    $currency: "storefront.context.body.currency_id",
+    $tags: [""],
+    $price: "storefront.context.body.price",
+    $oldPrice: "storefront.context.body.base_price",
+    $title: "storefront.context.body.name",
+    $description: "storefront.context.body.meta_description",
+    $imageUrl: "storefront.context.body.pictures[0].big.url",
+    $productUrl: "'https://www.emporiotiasonia.com.br/' + storefront.context.body.slug",
+    $vendor: "tiasonia"
+  }]);
+</script>
 
   <script src="/storefront.js"></script>
 </body>
