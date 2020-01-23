@@ -238,4 +238,9 @@ display: block !important;
 //hover TOPO
 //.header__countdown:hover:after{content: url(https://gen.sendtric.com/countdown/r8wjmef9co); display: block;}
 
+//não mostrar preço com desconto
 .ec-prices__discount{display:none;}
+
+.ec-discount__alert::after{
+  content: 'Cupons não podem ser usados em itens em oferta!'
+}
