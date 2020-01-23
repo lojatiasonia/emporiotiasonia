@@ -152,8 +152,8 @@ display: block !important;
 }
 // FRETE CALCULO
 .ec-shipping__services::after {
-  content: 'Frete Grátis a partir de R$ 200,00 \A Frete R$ 9,99 a partir de R$ 100,00';
-  white-space: pre; /* or pre-wrap */
+  //content: 'Frete Grátis a partir de R$ 200,00 \A Frete R$ 9,99 a partir de R$ 100,00';
+  //white-space: pre; /* or pre-wrap */
   font-weight: bold;
   font-size: 13px;
   color: #333;
