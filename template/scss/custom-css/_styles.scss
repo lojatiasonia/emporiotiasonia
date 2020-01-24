@@ -151,8 +151,8 @@ display: block !important;
     background-repeat: no-repeat;
 }
 // FRETE CALCULO
-.ec-shipping__services::after {
-  content: 'Compre R$ 150 e ganhe Frete Grátis \A *Válido até 31/01/2020';
+.ec-shipping__services::before {
+  content: 'Compre R$ 150 e Ganhe FRETE GRÁTIS! \A *Válido até 31/01/2020';
   white-space: pre; /* or pre-wrap */
   font-weight: bold;
   font-size: 13px;
