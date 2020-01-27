@@ -41,6 +41,9 @@
       "src": "/img/uploads/NortonSafeWeb.png",
       "alt": "Norton Secure",
       "link": "https://safeweb.norton.com/report/show?url=www.emporiotiasonia.com.br"
+    },
+    {
+      "src": "/img/uploads/eu-reciclo.png"
     }
   ],
   "payment_methods": {
