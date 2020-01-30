@@ -104,6 +104,9 @@ display: block !important;
   font-size: 20px !important;
   color: #2C0E7A !important;
 }
+.footer__title + p {
+  color: #0d0d0d !important;
+}
 .footer .col-lg-auto {
   width: 20%;
 }
@@ -165,7 +168,7 @@ display: block !important;
     border-radius: 1rem !important;
     line-height: 2.5 !important;
     color: #feac00 !important;
-  
+
 }
 //tamanho fonte h1
 .h1, h1 {
@@ -216,11 +219,11 @@ display: block !important;
 
 //margem preco botao
 .ec-product-card__prices {
-    height: 2.95rem !important; 
+    height: 2.95rem !important;
 }
 
 //estrelas trustvox
-.ec-product-card__name +div {margin-left: 25%; display: none !important;} 
+.ec-product-card__name +div {margin-left: 25%; display: none !important;}
 
 //fonte title colecoes
 .products-carousel__title {font-size: 1rem;}

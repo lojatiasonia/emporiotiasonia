@@ -44,7 +44,8 @@
     },
     {
       "src": "/img/uploads/eu-reciclo-1.png",
-      "link": "https://legacy.eureciclo.com.br/sobre-nos"
+      "link": "https://legacy.eureciclo.com.br/sobre-nos",
+      "alt": "Selo Tia Sônia Eureciclo"
     }
   ],
   "payment_methods": {
