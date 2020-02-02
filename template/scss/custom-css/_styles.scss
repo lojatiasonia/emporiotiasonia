@@ -15,7 +15,7 @@ display: block !important;
   font-size: 15px !important
 }
 
-.header a.header__countdown { font-size: 0.8rem;  background: #000; font-weight:700; color:#feac00;}
+.header a.header__countdown { font-size: 0.8rem; font-weight:700;}
 
 @media screen and (max-width: 480px) {
 .header a.header__countdown { font-size: 0.7rem; font-weight:500;}
@@ -155,7 +155,7 @@ display: block !important;
 }
 // FRETE CALCULO
 .ec-shipping__services::before {
-  content: 'Compre R$ 150 e Ganhe FRETE GRÁTIS! \A *Válido até 31/01/2020';
+  content: 'Compre R$ 150 e Ganhe FRETE GRÁTIS! \A';
   white-space: pre; /* or pre-wrap */
   font-weight: bold;
   font-size: 13px;
