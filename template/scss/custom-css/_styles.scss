@@ -247,3 +247,6 @@ display: block !important;
 .ec-discount__alert::after{
   content: 'Cupons não podem ser usados em itens em oferta!'
 }
+
+//remover status pedido aberto
+.ec-order-info__status--open {display: none;}
