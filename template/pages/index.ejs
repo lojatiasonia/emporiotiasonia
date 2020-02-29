@@ -39,7 +39,8 @@ const sfTemplatePath = '../../node_modules/@ecomplus/storefront-template/templat
   <%- await include(`${sfTemplatePath}@/scripts`, { _ }) %>
 
   <%- await include('@custom-html/scripts', { _ }) %>
-
+  <script type="text/javascript" src="//certificate.trustvox.com.br/widget.js"></script>
+  <div data-trustvox-certificate-fixed="data-trustvox-certificate-fixed"></div>
   <script src="/storefront.js"></script>
 </body>
 
