@@ -40,7 +40,12 @@ const sfTemplatePath = '../../node_modules/@ecomplus/storefront-template/templat
 
   <%- await include('@custom-html/scripts', { _ }) %>
   <script type="text/javascript" src="//certificate.trustvox.com.br/widget.js"></script>
-  <div data-trustvox-certificate-fixed="data-trustvox-certificate-fixed"></div>
+  <div id="trustvox-seal" data-trustvox-certificate-fixed="data-trustvox-certificate-fixed"></div>
+  <script type="text/javascript">
+    const last_col = document.querySelector('.footer .order-lg-last')
+    const trustvox_seal = document.getElementById('trustvox-seal')
+    last_col.appendChild(trustvox_seal)
+  </script>
   <script src="/storefront.js"></script>
 </body>
 
