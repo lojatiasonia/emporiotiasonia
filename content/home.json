@@ -5,7 +5,9 @@
     "autoplay": 9000,
     "slides": [
       {
-        "img": "/img/uploads/arte_site_semana_do_consumidor-1-.jpg"
+        "img": "/img/uploads/consumidor.png",
+        "alt": "Semana do Consumidor",
+        "link": "https://www.emporiotiasonia.com.br/search"
       }
     ]
   },
