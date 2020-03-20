@@ -250,3 +250,8 @@ display: block !important;
 
 //remover status pedido aberto
 .ec-order-info__status--open {display: none;}
+
+//tam img checkout
+.ec-summary__item img {
+  width: 50px;
+}
