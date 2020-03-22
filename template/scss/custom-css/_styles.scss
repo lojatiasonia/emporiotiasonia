@@ -257,4 +257,6 @@ display: block !important;
 }
 
 //botão cancelar
-.ec-order-info__toggle .btn .btn-danger .btn-sm {display:none;}
+.btn-danger {
+    display: none !important;
+}
