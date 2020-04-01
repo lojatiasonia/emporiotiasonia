@@ -1,8 +1,8 @@
 {
   "main_price": "discount",
   "shipping": {
-    "text": "Frete Grátis - Acima de R$ 150",
-    "show": true
+    "text": "",
+    "show": false
   },
   "installments": {
     "text": "",
