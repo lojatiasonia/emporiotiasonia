@@ -8,16 +8,6 @@
         "img": "/img/uploads/snacks-banner-site-1900x500-1-.jpg",
         "link": "https://www.emporiotiasonia.com.br/novidades-para-voce",
         "alt": "Snack"
-      },
-      {
-        "img": "/img/uploads/semana_fretes_gratis_ok.png",
-        "link": "https://www.emporiotiasonia.com.br/search",
-        "alt": "Frete"
-      },
-      {
-        "link": "https://www.emporiotiasonia.com.br/search?term=1kg",
-        "alt": "Granola",
-        "img": "/img/uploads/granola_ok.png"
       }
     ]
   },
