@@ -5,6 +5,11 @@
     "autoplay": 9000,
     "slides": [
       {
+        "img": "/img/uploads/semanafretegratis.jpg",
+        "link": "https://www.emporiotiasonia.com.br/search",
+        "alt": "Frete-Gratis"
+      },
+      {
         "img": "/img/uploads/snacks-banner-site-1900x500-1-.jpg",
         "link": "https://www.emporiotiasonia.com.br/novidades-para-voce",
         "alt": "Snack"
