@@ -15,7 +15,7 @@ display: block !important;
   font-size: 15px !important
 }
 
-.header .header__countdown { font-size: 0.8rem; font-weight:700; background:#831c7e;}
+.header .header__countdown { font-size: 0.8rem; font-weight:700; background:#006AA5;}
 
 @media screen and (max-width: 480px) {
 .header .header__countdown { font-size: 0.7rem; font-weight:500;}
@@ -155,7 +155,7 @@ display: block !important;
 }
 // FRETE CALCULO
 .ec-shipping__services::before {
-  content: 'FRETE FIXO R$9,99 ACIMA DE R$100 \A *Por tempo limitado!';
+  content: 'FRETE GRÁTIS ACIMA DE R$200 \A *Por tempo limitado!';
   white-space: pre; /* or pre-wrap */
   font-weight: bold;
   font-size: 13px;
