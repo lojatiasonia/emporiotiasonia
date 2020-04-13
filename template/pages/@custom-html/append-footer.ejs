@@ -1,1 +1,13 @@
 <!-- Add custom HTML to append on ALL SITE after footer. -->
+<script type="text/javascript" src="//certificate.trustvox.com.br/widget.js"></script>
+<div id="trustvox-seal" data-trustvox-certificate-fixed="data-trustvox-certificate-fixed"></div>
+<script type="text/javascript">
+const body_footer_normal = document.querySelectorAll('.footer').length || 0
+const trustvox_seal = document.getElementById('trustvox-seal')
+if(body_footer_normal) {
+  const last_col = document.querySelector('.footer .order-lg-last')
+  last_col.appendChild(trustvox_seal)
+} else {
+  document.querySelector('.app__stamps').appendChild(trustvox_seal) 
+}
+</script>
