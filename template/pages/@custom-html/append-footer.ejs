@@ -5,9 +5,10 @@
     const body_cart = document.querySelector('.app') || 'false'
     if(!body_cart) {
       const last_col = document.querySelector('.footer .order-lg-last')
-      const trustvox_seal = document.getElementById('trustvox-seal')
+      let trustvox_seal = document.getElementById('trustvox-seal')
       last_col.appendChild(trustvox_seal)
     } else {
+      let trustvox_seal = document.getElementById('trustvox-seal')
       document.querySelector('.app__stamps').appendChild(trutvox_seal) 
     }
     
